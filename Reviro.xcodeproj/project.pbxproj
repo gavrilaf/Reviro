@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		466C904E1E8C2E7A00ABD836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466C904D1E8C2E7A00ABD836 /* AppDelegate.swift */; };
+		466C90501E8C2E7A00ABD836 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466C904F1E8C2E7A00ABD836 /* ViewController.swift */; };
+		466C90521E8C2E7A00ABD836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466C90511E8C2E7A00ABD836 /* Assets.xcassets */; };
+		466C90551E8C2E7A00ABD836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466C90531E8C2E7A00ABD836 /* Main.storyboard */; };
+		466C90601E8C2E7A00ABD836 /* ReviroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466C905F1E8C2E7A00ABD836 /* ReviroTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		466C905C1E8C2E7A00ABD836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466C90421E8C2E7900ABD836 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466C90491E8C2E7900ABD836;
+			remoteInfo = Reviro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		466C904A1E8C2E7A00ABD836 /* Reviro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reviro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		466C904D1E8C2E7A00ABD836 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		466C904F1E8C2E7A00ABD836 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		466C90511E8C2E7A00ABD836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		466C90541E8C2E7A00ABD836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		466C90561E8C2E7A00ABD836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466C905B1E8C2E7A00ABD836 /* ReviroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReviroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		466C905F1E8C2E7A00ABD836 /* ReviroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviroTests.swift; sourceTree = "<group>"; };
+		466C90611E8C2E7A00ABD836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		466C90471E8C2E7900ABD836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466C90581E8C2E7A00ABD836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		466C90411E8C2E7900ABD836 = {
+			isa = PBXGroup;
+			children = (
+				466C904C1E8C2E7A00ABD836 /* Reviro */,
+				466C905E1E8C2E7A00ABD836 /* ReviroTests */,
+				466C904B1E8C2E7A00ABD836 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		466C904B1E8C2E7A00ABD836 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				466C904A1E8C2E7A00ABD836 /* Reviro.app */,
+				466C905B1E8C2E7A00ABD836 /* ReviroTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		466C904C1E8C2E7A00ABD836 /* Reviro */ = {
+			isa = PBXGroup;
+			children = (
+				466C904D1E8C2E7A00ABD836 /* AppDelegate.swift */,
+				466C904F1E8C2E7A00ABD836 /* ViewController.swift */,
+				466C90511E8C2E7A00ABD836 /* Assets.xcassets */,
+				466C90531E8C2E7A00ABD836 /* Main.storyboard */,
+				466C90561E8C2E7A00ABD836 /* Info.plist */,
+			);
+			path = Reviro;
+			sourceTree = "<group>";
+		};
+		466C905E1E8C2E7A00ABD836 /* ReviroTests */ = {
+			isa = PBXGroup;
+			children = (
+				466C905F1E8C2E7A00ABD836 /* ReviroTests.swift */,
+				466C90611E8C2E7A00ABD836 /* Info.plist */,
+			);
+			path = ReviroTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		466C90491E8C2E7900ABD836 /* Reviro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466C90641E8C2E7A00ABD836 /* Build configuration list for PBXNativeTarget "Reviro" */;
+			buildPhases = (
+				466C90461E8C2E7900ABD836 /* Sources */,
+				466C90471E8C2E7900ABD836 /* Frameworks */,
+				466C90481E8C2E7900ABD836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reviro;
+			productName = Reviro;
+			productReference = 466C904A1E8C2E7A00ABD836 /* Reviro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		466C905A1E8C2E7A00ABD836 /* ReviroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466C90671E8C2E7A00ABD836 /* Build configuration list for PBXNativeTarget "ReviroTests" */;
+			buildPhases = (
+				466C90571E8C2E7A00ABD836 /* Sources */,
+				466C90581E8C2E7A00ABD836 /* Frameworks */,
+				466C90591E8C2E7A00ABD836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466C905D1E8C2E7A00ABD836 /* PBXTargetDependency */,
+			);
+			name = ReviroTests;
+			productName = ReviroTests;
+			productReference = 466C905B1E8C2E7A00ABD836 /* ReviroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		466C90421E8C2E7900ABD836 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = gavrilaf;
+				TargetAttributes = {
+					466C90491E8C2E7900ABD836 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9L3EM8F93P;
+						ProvisioningStyle = Automatic;
+					};
+					466C905A1E8C2E7A00ABD836 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9L3EM8F93P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 466C90491E8C2E7900ABD836;
+					};
+				};
+			};
+			buildConfigurationList = 466C90451E8C2E7900ABD836 /* Build configuration list for PBXProject "Reviro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 466C90411E8C2E7900ABD836;
+			productRefGroup = 466C904B1E8C2E7A00ABD836 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				466C90491E8C2E7900ABD836 /* Reviro */,
+				466C905A1E8C2E7A00ABD836 /* ReviroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		466C90481E8C2E7900ABD836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466C90521E8C2E7A00ABD836 /* Assets.xcassets in Resources */,
+				466C90551E8C2E7A00ABD836 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466C90591E8C2E7A00ABD836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		466C90461E8C2E7900ABD836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466C90501E8C2E7A00ABD836 /* ViewController.swift in Sources */,
+				466C904E1E8C2E7A00ABD836 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466C90571E8C2E7A00ABD836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466C90601E8C2E7A00ABD836 /* ReviroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		466C905D1E8C2E7A00ABD836 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466C90491E8C2E7900ABD836 /* Reviro */;
+			targetProxy = 466C905C1E8C2E7A00ABD836 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		466C90531E8C2E7A00ABD836 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				466C90541E8C2E7A00ABD836 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		466C90621E8C2E7A00ABD836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		466C90631E8C2E7A00ABD836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		466C90651E8C2E7A00ABD836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9L3EM8F93P;
+				INFOPLIST_FILE = Reviro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = github.com.Reviro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		466C90661E8C2E7A00ABD836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9L3EM8F93P;
+				INFOPLIST_FILE = Reviro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = github.com.Reviro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		466C90681E8C2E7A00ABD836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9L3EM8F93P;
+				INFOPLIST_FILE = ReviroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = github.com.ReviroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reviro.app/Contents/MacOS/Reviro";
+			};
+			name = Debug;
+		};
+		466C90691E8C2E7A00ABD836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9L3EM8F93P;
+				INFOPLIST_FILE = ReviroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = github.com.ReviroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reviro.app/Contents/MacOS/Reviro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		466C90451E8C2E7900ABD836 /* Build configuration list for PBXProject "Reviro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466C90621E8C2E7A00ABD836 /* Debug */,
+				466C90631E8C2E7A00ABD836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466C90641E8C2E7A00ABD836 /* Build configuration list for PBXNativeTarget "Reviro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466C90651E8C2E7A00ABD836 /* Debug */,
+				466C90661E8C2E7A00ABD836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		466C90671E8C2E7A00ABD836 /* Build configuration list for PBXNativeTarget "ReviroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466C90681E8C2E7A00ABD836 /* Debug */,
+				466C90691E8C2E7A00ABD836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 466C90421E8C2E7900ABD836 /* Project object */;
+}

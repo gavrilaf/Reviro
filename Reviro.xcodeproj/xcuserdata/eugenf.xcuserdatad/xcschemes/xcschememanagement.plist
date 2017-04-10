@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ReviroTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>466C905A1E8C2E7A00ABD836</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>466F17131E8BF1A900DADCCA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>466F17211E8BF1D400DADCCA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

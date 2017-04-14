@@ -21,7 +21,7 @@ class BinaryHeapTests: XCTestCase {
         super.tearDown()
     }
 
-    func testPriorityQueue() {
+    func testBinaryHeap() {
         let pq = BinaryHeap<Int>(sort: { return $0 < $1 })
         
         pq.push(2)
@@ -63,7 +63,7 @@ class BinaryHeapTests: XCTestCase {
         XCTAssertEqual(pq.pop(), nil)
     }
 
-    func testPriorityQueueOnRandom() {
+    func testBinaryHeapOnRandom() {
         let pq = BinaryHeap<UInt32>(sort: { return $0 < $1 }) // Create min-heap
         
         for _ in 0..<100 {
@@ -83,7 +83,7 @@ class BinaryHeapTests: XCTestCase {
         XCTAssertTrue(checker.isOrdered)
     }
     
-    func testBuildPriorityQueue() {
+    func testBuildBinaryHeap() {
         let a = [1, 90, 3, 45, 23, 8, 234, 589, 234, 12, 34, 90, 11, 11, 11, 23, 56]
         
         let pq = BinaryHeap(array: a, sort: { return $0 < $1 }) // Create min-heap
@@ -97,7 +97,7 @@ class BinaryHeapTests: XCTestCase {
         XCTAssertTrue(checker.isOrdered)
     }
     
-    func testStringdPriorityQueue() {
+    func testStringdBinaryHeap() {
         let a = ["aa", "aaa", "b", "cccccc", "abc", "z", "xyx", "mb"]
         
         let pq = BinaryHeap(array: a, sort: { return $0 < $1 })
@@ -117,7 +117,7 @@ class BinaryHeapTests: XCTestCase {
         XCTAssertTrue(checker.isOrdered)
     }
 
-    func testPQPerformance() {
+    func testBinaryHeapPerformance() {
         let ar = randomArray(size: 100000)
         let pq = BinaryHeap<Int>(sort: { return $0 < $1 })
         
@@ -136,7 +136,7 @@ class BinaryHeapTests: XCTestCase {
     }
     
     
-    func testBuildPQPerformance() {
+    func testBuildBinaryHeapPerformance() {
         let ar = randomArray(size: 1000000)
         
         self.measure {

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class BinaryHeap<E: Comparable>: HeapProtocol {
+class BinaryHeap<E>: HeapProtocol {
 
     init(sort: @escaping (E, E) -> Bool) {
         self.sort = sort

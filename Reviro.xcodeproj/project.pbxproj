@@ -7,189 +7,188 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		461997121E8F19330092DCE3 /* OrderChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461997111E8F19330092DCE3 /* OrderChecker.swift */; };
-		461997171E8F1B330092DCE3 /* OrderCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461997161E8F1B330092DCE3 /* OrderCheckerTests.swift */; };
-		46388F4A1EA341A700B2C4DC /* IndexedBinaryHeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F491EA341A700B2C4DC /* IndexedBinaryHeapTests.swift */; };
-		464BCB911E99676000E3EC51 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464BCB901E99676000E3EC51 /* MergeSort.swift */; };
-		464BCB931E997D8C00E3EC51 /* MergeSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464BCB921E997D8C00E3EC51 /* MergeSortTests.swift */; };
-		466C904E1E8C2E7A00ABD836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466C904D1E8C2E7A00ABD836 /* AppDelegate.swift */; };
-		466C90501E8C2E7A00ABD836 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466C904F1E8C2E7A00ABD836 /* ViewController.swift */; };
-		466C90521E8C2E7A00ABD836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466C90511E8C2E7A00ABD836 /* Assets.xcassets */; };
-		466C90551E8C2E7A00ABD836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466C90531E8C2E7A00ABD836 /* Main.storyboard */; };
-		466C917A1E8D9AF200ABD836 /* BinaryHeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466C91791E8D9AF200ABD836 /* BinaryHeapTests.swift */; };
-		46BB1FAA1E8F8BD8000DD142 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BB1FA91E8F8BD8000DD142 /* Random.swift */; };
-		46BB1FB21E90D0D8000DD142 /* HeapProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BB1FAC1E90D0D8000DD142 /* HeapProtocol.swift */; };
-		46BB1FB31E90D0D8000DD142 /* BinaryHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BB1FAD1E90D0D8000DD142 /* BinaryHeap.swift */; };
-		46BB1FB91E90D143000DD142 /* HeapSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BB1FB81E90D143000DD142 /* HeapSort.swift */; };
-		46BB1FBB1E9196B3000DD142 /* HeapSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BB1FBA1E9196B3000DD142 /* HeapSortTests.swift */; };
-		46FB0E2D1E96DEB20036C39B /* ShellSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FB0E2C1E96DEB20036C39B /* ShellSort.swift */; };
-		46FB0E2F1E96E4720036C39B /* ShellSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FB0E2E1E96E4720036C39B /* ShellSortTests.swift */; };
-		46FB0E311E96E54F0036C39B /* SortPerformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FB0E301E96E54F0036C39B /* SortPerformance.swift */; };
+		46388F601EA3AFEB00B2C4DC /* BinaryHeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F5E1EA3AF3A00B2C4DC /* BinaryHeapTests.swift */; };
+		46388F611EA3AFEF00B2C4DC /* HeapSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F591EA3AF3A00B2C4DC /* HeapSortTests.swift */; };
+		46388F621EA3AFEF00B2C4DC /* MergeSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F5A1EA3AF3A00B2C4DC /* MergeSortTests.swift */; };
+		46388F631EA3AFEF00B2C4DC /* ShellSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F5B1EA3AF3A00B2C4DC /* ShellSortTests.swift */; };
+		46388F641EA3AFEF00B2C4DC /* SortPerformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F5C1EA3AF3A00B2C4DC /* SortPerformance.swift */; };
+		46388F651EA3AFF200B2C4DC /* OrderCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F571EA3AF3A00B2C4DC /* OrderCheckerTests.swift */; };
+		46388F661EA3AFFB00B2C4DC /* BinaryHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F541EA3AF0E00B2C4DC /* BinaryHeap.swift */; };
+		46388F671EA3AFFB00B2C4DC /* HeapProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F551EA3AF0E00B2C4DC /* HeapProtocol.swift */; };
+		46388F681EA3B00000B2C4DC /* HeapSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F501EA3AF0E00B2C4DC /* HeapSort.swift */; };
+		46388F691EA3B00000B2C4DC /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F511EA3AF0E00B2C4DC /* MergeSort.swift */; };
+		46388F6A1EA3B00000B2C4DC /* ShellSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F521EA3AF0E00B2C4DC /* ShellSort.swift */; };
+		46388F6B1EA3B00400B2C4DC /* OrderChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F4D1EA3AF0E00B2C4DC /* OrderChecker.swift */; };
+		46388F6C1EA3B00400B2C4DC /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F4E1EA3AF0E00B2C4DC /* Random.swift */; };
+		OBJ_22 /* Reviro.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* Reviro.swift */; };
+		OBJ_29 /* ReviroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* ReviroTests.swift */; };
+		OBJ_31 /* Reviro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Reviro.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		466C905C1E8C2E7A00ABD836 /* PBXContainerItemProxy */ = {
+		46388F4B1EA3A6A300B2C4DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 466C90421E8C2E7900ABD836 /* Project object */;
+			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 466C90491E8C2E7900ABD836;
+			remoteGlobalIDString = OBJ_17;
 			remoteInfo = Reviro;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		461997111E8F19330092DCE3 /* OrderChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderChecker.swift; sourceTree = "<group>"; };
-		461997161E8F1B330092DCE3 /* OrderCheckerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderCheckerTests.swift; sourceTree = "<group>"; };
-		46388F491EA341A700B2C4DC /* IndexedBinaryHeapTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexedBinaryHeapTests.swift; sourceTree = "<group>"; };
-		464BCB901E99676000E3EC51 /* MergeSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
-		464BCB921E997D8C00E3EC51 /* MergeSortTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeSortTests.swift; sourceTree = "<group>"; };
-		466C904A1E8C2E7A00ABD836 /* Reviro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reviro.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		466C904D1E8C2E7A00ABD836 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		466C904F1E8C2E7A00ABD836 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		466C90511E8C2E7A00ABD836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		466C90541E8C2E7A00ABD836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		466C90561E8C2E7A00ABD836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		466C905B1E8C2E7A00ABD836 /* ReviroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReviroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		466C90611E8C2E7A00ABD836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		466C91791E8D9AF200ABD836 /* BinaryHeapTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryHeapTests.swift; sourceTree = "<group>"; };
-		46BB1FA91E8F8BD8000DD142 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
-		46BB1FAC1E90D0D8000DD142 /* HeapProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeapProtocol.swift; sourceTree = "<group>"; };
-		46BB1FAD1E90D0D8000DD142 /* BinaryHeap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryHeap.swift; sourceTree = "<group>"; };
-		46BB1FB81E90D143000DD142 /* HeapSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeapSort.swift; sourceTree = "<group>"; };
-		46BB1FBA1E9196B3000DD142 /* HeapSortTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeapSortTests.swift; sourceTree = "<group>"; };
-		46FB0E2C1E96DEB20036C39B /* ShellSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShellSort.swift; sourceTree = "<group>"; };
-		46FB0E2E1E96E4720036C39B /* ShellSortTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShellSortTests.swift; sourceTree = "<group>"; };
-		46FB0E301E96E54F0036C39B /* SortPerformance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortPerformance.swift; sourceTree = "<group>"; };
+		46388F4D1EA3AF0E00B2C4DC /* OrderChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderChecker.swift; sourceTree = "<group>"; };
+		46388F4E1EA3AF0E00B2C4DC /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		46388F501EA3AF0E00B2C4DC /* HeapSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSort.swift; sourceTree = "<group>"; };
+		46388F511EA3AF0E00B2C4DC /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		46388F521EA3AF0E00B2C4DC /* ShellSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellSort.swift; sourceTree = "<group>"; };
+		46388F541EA3AF0E00B2C4DC /* BinaryHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryHeap.swift; sourceTree = "<group>"; };
+		46388F551EA3AF0E00B2C4DC /* HeapProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapProtocol.swift; sourceTree = "<group>"; };
+		46388F571EA3AF3A00B2C4DC /* OrderCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCheckerTests.swift; sourceTree = "<group>"; };
+		46388F591EA3AF3A00B2C4DC /* HeapSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSortTests.swift; sourceTree = "<group>"; };
+		46388F5A1EA3AF3A00B2C4DC /* MergeSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortTests.swift; sourceTree = "<group>"; };
+		46388F5B1EA3AF3A00B2C4DC /* ShellSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellSortTests.swift; sourceTree = "<group>"; };
+		46388F5C1EA3AF3A00B2C4DC /* SortPerformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortPerformance.swift; sourceTree = "<group>"; };
+		46388F5E1EA3AF3A00B2C4DC /* BinaryHeapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryHeapTests.swift; sourceTree = "<group>"; };
+		OBJ_11 /* ReviroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviroTests.swift; sourceTree = "<group>"; };
+		OBJ_15 /* Reviro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Reviro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_16 /* ReviroTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = ReviroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_8 /* Reviro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		466C90471E8C2E7900ABD836 /* Frameworks */ = {
+		OBJ_23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		466C90581E8C2E7A00ABD836 /* Frameworks */ = {
+		OBJ_30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
+				OBJ_31 /* Reviro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		461997101E8F190E0092DCE3 /* Utility */ = {
+		46388F4C1EA3AF0E00B2C4DC /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				461997111E8F19330092DCE3 /* OrderChecker.swift */,
-				46BB1FA91E8F8BD8000DD142 /* Random.swift */,
+				46388F4D1EA3AF0E00B2C4DC /* OrderChecker.swift */,
+				46388F4E1EA3AF0E00B2C4DC /* Random.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
 		};
-		461997131E8F1AE40092DCE3 /* Utility */ = {
+		46388F4F1EA3AF0E00B2C4DC /* Sort */ = {
 			isa = PBXGroup;
 			children = (
-				461997161E8F1B330092DCE3 /* OrderCheckerTests.swift */,
+				46388F501EA3AF0E00B2C4DC /* HeapSort.swift */,
+				46388F511EA3AF0E00B2C4DC /* MergeSort.swift */,
+				46388F521EA3AF0E00B2C4DC /* ShellSort.swift */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		46388F531EA3AF0E00B2C4DC /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				46388F541EA3AF0E00B2C4DC /* BinaryHeap.swift */,
+				46388F551EA3AF0E00B2C4DC /* HeapProtocol.swift */,
+			);
+			path = Heap;
+			sourceTree = "<group>";
+		};
+		46388F561EA3AF3A00B2C4DC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				46388F571EA3AF3A00B2C4DC /* OrderCheckerTests.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
 		};
-		466C90411E8C2E7900ABD836 = {
+		46388F581EA3AF3A00B2C4DC /* Sort */ = {
 			isa = PBXGroup;
 			children = (
-				466C904C1E8C2E7A00ABD836 /* Reviro */,
-				466C905E1E8C2E7A00ABD836 /* ReviroTests */,
-				466C904B1E8C2E7A00ABD836 /* Products */,
+				46388F591EA3AF3A00B2C4DC /* HeapSortTests.swift */,
+				46388F5A1EA3AF3A00B2C4DC /* MergeSortTests.swift */,
+				46388F5B1EA3AF3A00B2C4DC /* ShellSortTests.swift */,
+				46388F5C1EA3AF3A00B2C4DC /* SortPerformance.swift */,
 			);
+			path = Sort;
 			sourceTree = "<group>";
 		};
-		466C904B1E8C2E7A00ABD836 /* Products */ = {
+		46388F5D1EA3AF3A00B2C4DC /* Heap */ = {
 			isa = PBXGroup;
 			children = (
-				466C904A1E8C2E7A00ABD836 /* Reviro.app */,
-				466C905B1E8C2E7A00ABD836 /* ReviroTests.xctest */,
+				46388F5E1EA3AF3A00B2C4DC /* BinaryHeapTests.swift */,
+			);
+			path = Heap;
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* ReviroTests */ = {
+			isa = PBXGroup;
+			children = (
+				46388F561EA3AF3A00B2C4DC /* Utility */,
+				46388F581EA3AF3A00B2C4DC /* Sort */,
+				46388F5D1EA3AF3A00B2C4DC /* Heap */,
+				OBJ_11 /* ReviroTests.swift */,
+			);
+			name = ReviroTests;
+			path = Tests/ReviroTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_15 /* Reviro.framework */,
+				OBJ_16 /* ReviroTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		466C904C1E8C2E7A00ABD836 /* Reviro */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
-				46BB1FB61E90D113000DD142 /* Sort */,
-				461997101E8F190E0092DCE3 /* Utility */,
-				46BB1FAB1E90D0D8000DD142 /* Heap */,
-				466C904D1E8C2E7A00ABD836 /* AppDelegate.swift */,
-				466C904F1E8C2E7A00ABD836 /* ViewController.swift */,
-				466C90511E8C2E7A00ABD836 /* Assets.xcassets */,
-				466C90531E8C2E7A00ABD836 /* Main.storyboard */,
-				466C90561E8C2E7A00ABD836 /* Info.plist */,
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_9 /* Tests */,
+				OBJ_14 /* Products */,
 			);
-			path = Reviro;
 			sourceTree = "<group>";
 		};
-		466C905E1E8C2E7A00ABD836 /* ReviroTests */ = {
+		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				46BB1FB71E90D129000DD142 /* Sort */,
-				461997131E8F1AE40092DCE3 /* Utility */,
-				466C91761E8D9AC100ABD836 /* Heap */,
-				466C90611E8C2E7A00ABD836 /* Info.plist */,
+				46388F4C1EA3AF0E00B2C4DC /* Utility */,
+				46388F4F1EA3AF0E00B2C4DC /* Sort */,
+				46388F531EA3AF0E00B2C4DC /* Heap */,
+				OBJ_8 /* Reviro.swift */,
 			);
-			path = ReviroTests;
-			sourceTree = "<group>";
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
 		};
-		466C91761E8D9AC100ABD836 /* Heap */ = {
+		OBJ_9 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				466C91791E8D9AF200ABD836 /* BinaryHeapTests.swift */,
-				46388F491EA341A700B2C4DC /* IndexedBinaryHeapTests.swift */,
+				OBJ_10 /* ReviroTests */,
 			);
-			path = Heap;
-			sourceTree = "<group>";
-		};
-		46BB1FAB1E90D0D8000DD142 /* Heap */ = {
-			isa = PBXGroup;
-			children = (
-				46BB1FAC1E90D0D8000DD142 /* HeapProtocol.swift */,
-				46BB1FAD1E90D0D8000DD142 /* BinaryHeap.swift */,
-			);
-			path = Heap;
-			sourceTree = "<group>";
-		};
-		46BB1FB61E90D113000DD142 /* Sort */ = {
-			isa = PBXGroup;
-			children = (
-				46BB1FB81E90D143000DD142 /* HeapSort.swift */,
-				46FB0E2C1E96DEB20036C39B /* ShellSort.swift */,
-				464BCB901E99676000E3EC51 /* MergeSort.swift */,
-			);
-			path = Sort;
-			sourceTree = "<group>";
-		};
-		46BB1FB71E90D129000DD142 /* Sort */ = {
-			isa = PBXGroup;
-			children = (
-				46BB1FBA1E9196B3000DD142 /* HeapSortTests.swift */,
-				46FB0E2E1E96E4720036C39B /* ShellSortTests.swift */,
-				46FB0E301E96E54F0036C39B /* SortPerformance.swift */,
-				464BCB921E997D8C00E3EC51 /* MergeSortTests.swift */,
-			);
-			path = Sort;
-			sourceTree = "<group>";
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		466C90491E8C2E7900ABD836 /* Reviro */ = {
+		OBJ_17 /* Reviro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 466C90641E8C2E7A00ABD836 /* Build configuration list for PBXNativeTarget "Reviro" */;
+			buildConfigurationList = OBJ_18 /* Build configuration list for PBXNativeTarget "Reviro" */;
 			buildPhases = (
-				466C90461E8C2E7900ABD836 /* Sources */,
-				466C90471E8C2E7900ABD836 /* Frameworks */,
-				466C90481E8C2E7900ABD836 /* Resources */,
+				OBJ_21 /* Sources */,
+				OBJ_23 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,322 +196,244 @@
 			);
 			name = Reviro;
 			productName = Reviro;
-			productReference = 466C904A1E8C2E7A00ABD836 /* Reviro.app */;
-			productType = "com.apple.product-type.application";
+			productReference = OBJ_15 /* Reviro.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		466C905A1E8C2E7A00ABD836 /* ReviroTests */ = {
+		OBJ_24 /* ReviroTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 466C90671E8C2E7A00ABD836 /* Build configuration list for PBXNativeTarget "ReviroTests" */;
+			buildConfigurationList = OBJ_25 /* Build configuration list for PBXNativeTarget "ReviroTests" */;
 			buildPhases = (
-				466C90571E8C2E7A00ABD836 /* Sources */,
-				466C90581E8C2E7A00ABD836 /* Frameworks */,
-				466C90591E8C2E7A00ABD836 /* Resources */,
+				OBJ_28 /* Sources */,
+				OBJ_30 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				466C905D1E8C2E7A00ABD836 /* PBXTargetDependency */,
+				OBJ_32 /* PBXTargetDependency */,
 			);
 			name = ReviroTests;
 			productName = ReviroTests;
-			productReference = 466C905B1E8C2E7A00ABD836 /* ReviroTests.xctest */;
+			productReference = OBJ_16 /* ReviroTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		466C90421E8C2E7900ABD836 /* Project object */ = {
+		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = gavrilaf;
-				TargetAttributes = {
-					466C90491E8C2E7900ABD836 = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 9L3EM8F93P;
-						ProvisioningStyle = Automatic;
-					};
-					466C905A1E8C2E7A00ABD836 = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 9L3EM8F93P;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 466C90491E8C2E7900ABD836;
-					};
-				};
+				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = 466C90451E8C2E7900ABD836 /* Build configuration list for PBXProject "Reviro" */;
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Reviro" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 466C90411E8C2E7900ABD836;
-			productRefGroup = 466C904B1E8C2E7A00ABD836 /* Products */;
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				466C90491E8C2E7900ABD836 /* Reviro */,
-				466C905A1E8C2E7A00ABD836 /* ReviroTests */,
+				OBJ_17 /* Reviro */,
+				OBJ_24 /* ReviroTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		466C90481E8C2E7900ABD836 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				466C90521E8C2E7A00ABD836 /* Assets.xcassets in Resources */,
-				466C90551E8C2E7A00ABD836 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		466C90591E8C2E7A00ABD836 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		466C90461E8C2E7900ABD836 /* Sources */ = {
+		OBJ_21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				464BCB911E99676000E3EC51 /* MergeSort.swift in Sources */,
-				46FB0E2D1E96DEB20036C39B /* ShellSort.swift in Sources */,
-				46BB1FAA1E8F8BD8000DD142 /* Random.swift in Sources */,
-				461997121E8F19330092DCE3 /* OrderChecker.swift in Sources */,
-				466C90501E8C2E7A00ABD836 /* ViewController.swift in Sources */,
-				466C904E1E8C2E7A00ABD836 /* AppDelegate.swift in Sources */,
-				46BB1FB21E90D0D8000DD142 /* HeapProtocol.swift in Sources */,
-				46BB1FB91E90D143000DD142 /* HeapSort.swift in Sources */,
-				46BB1FB31E90D0D8000DD142 /* BinaryHeap.swift in Sources */,
+				46388F6C1EA3B00400B2C4DC /* Random.swift in Sources */,
+				46388F6B1EA3B00400B2C4DC /* OrderChecker.swift in Sources */,
+				46388F6A1EA3B00000B2C4DC /* ShellSort.swift in Sources */,
+				46388F661EA3AFFB00B2C4DC /* BinaryHeap.swift in Sources */,
+				OBJ_22 /* Reviro.swift in Sources */,
+				46388F671EA3AFFB00B2C4DC /* HeapProtocol.swift in Sources */,
+				46388F681EA3B00000B2C4DC /* HeapSort.swift in Sources */,
+				46388F691EA3B00000B2C4DC /* MergeSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		466C90571E8C2E7A00ABD836 /* Sources */ = {
+		OBJ_28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				464BCB931E997D8C00E3EC51 /* MergeSortTests.swift in Sources */,
-				46FB0E2F1E96E4720036C39B /* ShellSortTests.swift in Sources */,
-				46FB0E311E96E54F0036C39B /* SortPerformance.swift in Sources */,
-				461997171E8F1B330092DCE3 /* OrderCheckerTests.swift in Sources */,
-				46BB1FBB1E9196B3000DD142 /* HeapSortTests.swift in Sources */,
-				46388F4A1EA341A700B2C4DC /* IndexedBinaryHeapTests.swift in Sources */,
-				466C917A1E8D9AF200ABD836 /* BinaryHeapTests.swift in Sources */,
+				46388F631EA3AFEF00B2C4DC /* ShellSortTests.swift in Sources */,
+				46388F611EA3AFEF00B2C4DC /* HeapSortTests.swift in Sources */,
+				46388F641EA3AFEF00B2C4DC /* SortPerformance.swift in Sources */,
+				46388F651EA3AFF200B2C4DC /* OrderCheckerTests.swift in Sources */,
+				46388F601EA3AFEB00B2C4DC /* BinaryHeapTests.swift in Sources */,
+				46388F621EA3AFEF00B2C4DC /* MergeSortTests.swift in Sources */,
+				OBJ_29 /* ReviroTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		466C905D1E8C2E7A00ABD836 /* PBXTargetDependency */ = {
+		OBJ_32 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 466C90491E8C2E7900ABD836 /* Reviro */;
-			targetProxy = 466C905C1E8C2E7A00ABD836 /* PBXContainerItemProxy */;
+			target = OBJ_17 /* Reviro */;
+			targetProxy = 46388F4B1EA3A6A300B2C4DC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		466C90531E8C2E7A00ABD836 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				466C90541E8C2E7A00ABD836 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		466C90621E8C2E7A00ABD836 /* Debug */ = {
+		OBJ_19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Reviro.xcodeproj/Reviro_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Reviro;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Reviro;
+			};
+			name = Debug;
+		};
+		OBJ_20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Reviro.xcodeproj/Reviro_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Reviro;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Reviro;
+			};
+			name = Release;
+		};
+		OBJ_26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Reviro.xcodeproj/ReviroTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				TARGET_NAME = ReviroTests;
+			};
+			name = Debug;
+		};
+		OBJ_27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Reviro.xcodeproj/ReviroTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				TARGET_NAME = ReviroTests;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
-		466C90631E8C2E7A00ABD836 /* Release */ = {
+		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COPY_PHASE_STRIP = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-			};
-			name = Release;
-		};
-		466C90651E8C2E7A00ABD836 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9L3EM8F93P;
-				INFOPLIST_FILE = Reviro/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = github.com.Reviro;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		466C90661E8C2E7A00ABD836 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9L3EM8F93P;
-				INFOPLIST_FILE = Reviro/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = github.com.Reviro;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		466C90681E8C2E7A00ABD836 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9L3EM8F93P;
-				INFOPLIST_FILE = ReviroTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = github.com.ReviroTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reviro.app/Contents/MacOS/Reviro";
-			};
-			name = Debug;
-		};
-		466C90691E8C2E7A00ABD836 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9L3EM8F93P;
-				INFOPLIST_FILE = ReviroTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = github.com.ReviroTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reviro.app/Contents/MacOS/Reviro";
+				USE_HEADERMAP = NO;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		466C90451E8C2E7900ABD836 /* Build configuration list for PBXProject "Reviro" */ = {
+		OBJ_18 /* Build configuration list for PBXNativeTarget "Reviro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				466C90621E8C2E7A00ABD836 /* Debug */,
-				466C90631E8C2E7A00ABD836 /* Release */,
+				OBJ_19 /* Debug */,
+				OBJ_20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		466C90641E8C2E7A00ABD836 /* Build configuration list for PBXNativeTarget "Reviro" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "Reviro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				466C90651E8C2E7A00ABD836 /* Debug */,
-				466C90661E8C2E7A00ABD836 /* Release */,
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		466C90671E8C2E7A00ABD836 /* Build configuration list for PBXNativeTarget "ReviroTests" */ = {
+		OBJ_25 /* Build configuration list for PBXNativeTarget "ReviroTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				466C90681E8C2E7A00ABD836 /* Debug */,
-				466C90691E8C2E7A00ABD836 /* Release */,
+				OBJ_26 /* Debug */,
+				OBJ_27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 466C90421E8C2E7900ABD836 /* Project object */;
+	rootObject = OBJ_1 /* Project object */;
 }

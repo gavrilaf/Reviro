@@ -116,6 +116,24 @@ class BinaryHeapTests: XCTestCase {
         
         XCTAssertTrue(checker.isOrdered)
     }
+    
+    func testIndex() {
+        let a = [1, 90, 3, 45, 23, 8, 234, 589, 234, 12, 34, 90, 11, 11, 11, 23, 56]
+        let pq = BinaryHeap(array: a, sort: { return $0 < $1 })
+        
+        XCTAssertNotNil(pq.index(of: 589))
+        XCTAssertNotNil(pq.index(of: 1))
+        XCTAssertNotNil(pq.index(of: 234))
+        XCTAssertNotNil(pq.index(of: 11))
+        XCTAssertNotNil(pq.index(of: 56))
+        XCTAssertNotNil(pq.index(of: 234))
+        
+        XCTAssertNil(pq.index(of: 120))
+        XCTAssertNil(pq.index(of: 1000))
+        XCTAssertNil(pq.index(of: -10))
+        
+    }
+
 
     func testBinaryHeapPerformance() {
         let ar = randomArray(size: 100000)

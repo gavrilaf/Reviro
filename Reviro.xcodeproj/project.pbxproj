@@ -13,15 +13,6 @@
 		46388F631EA3AFEF00B2C4DC /* ShellSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F5B1EA3AF3A00B2C4DC /* ShellSortTests.swift */; };
 		46388F641EA3AFEF00B2C4DC /* SortPerformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F5C1EA3AF3A00B2C4DC /* SortPerformance.swift */; };
 		46388F651EA3AFF200B2C4DC /* OrderCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F571EA3AF3A00B2C4DC /* OrderCheckerTests.swift */; };
-		46388F661EA3AFFB00B2C4DC /* BinaryHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F541EA3AF0E00B2C4DC /* BinaryHeap.swift */; };
-		46388F671EA3AFFB00B2C4DC /* HeapProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F551EA3AF0E00B2C4DC /* HeapProtocol.swift */; };
-		46388F681EA3B00000B2C4DC /* HeapSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F501EA3AF0E00B2C4DC /* HeapSort.swift */; };
-		46388F691EA3B00000B2C4DC /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F511EA3AF0E00B2C4DC /* MergeSort.swift */; };
-		46388F6A1EA3B00000B2C4DC /* ShellSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F521EA3AF0E00B2C4DC /* ShellSort.swift */; };
-		46388F6B1EA3B00400B2C4DC /* OrderChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F4D1EA3AF0E00B2C4DC /* OrderChecker.swift */; };
-		46388F6C1EA3B00400B2C4DC /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F4E1EA3AF0E00B2C4DC /* Random.swift */; };
-		OBJ_22 /* Reviro.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* Reviro.swift */; };
-		OBJ_29 /* ReviroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* ReviroTests.swift */; };
 		OBJ_31 /* Reviro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Reviro.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,24 +27,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		46388F4D1EA3AF0E00B2C4DC /* OrderChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderChecker.swift; sourceTree = "<group>"; };
-		46388F4E1EA3AF0E00B2C4DC /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
-		46388F501EA3AF0E00B2C4DC /* HeapSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSort.swift; sourceTree = "<group>"; };
-		46388F511EA3AF0E00B2C4DC /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
-		46388F521EA3AF0E00B2C4DC /* ShellSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellSort.swift; sourceTree = "<group>"; };
-		46388F541EA3AF0E00B2C4DC /* BinaryHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryHeap.swift; sourceTree = "<group>"; };
-		46388F551EA3AF0E00B2C4DC /* HeapProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapProtocol.swift; sourceTree = "<group>"; };
 		46388F571EA3AF3A00B2C4DC /* OrderCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCheckerTests.swift; sourceTree = "<group>"; };
 		46388F591EA3AF3A00B2C4DC /* HeapSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSortTests.swift; sourceTree = "<group>"; };
 		46388F5A1EA3AF3A00B2C4DC /* MergeSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortTests.swift; sourceTree = "<group>"; };
 		46388F5B1EA3AF3A00B2C4DC /* ShellSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellSortTests.swift; sourceTree = "<group>"; };
 		46388F5C1EA3AF3A00B2C4DC /* SortPerformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortPerformance.swift; sourceTree = "<group>"; };
 		46388F5E1EA3AF3A00B2C4DC /* BinaryHeapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryHeapTests.swift; sourceTree = "<group>"; };
-		OBJ_11 /* ReviroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviroTests.swift; sourceTree = "<group>"; };
+		46388F7E1EA3C19600B2C4DC /* BinaryHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryHeap.swift; sourceTree = "<group>"; };
+		46388F7F1EA3C19600B2C4DC /* HeapProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapProtocol.swift; sourceTree = "<group>"; };
+		46388F811EA3C19600B2C4DC /* HeapSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSort.swift; sourceTree = "<group>"; };
+		46388F821EA3C19600B2C4DC /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		46388F831EA3C19600B2C4DC /* ShellSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellSort.swift; sourceTree = "<group>"; };
+		46388F851EA3C19600B2C4DC /* OrderChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderChecker.swift; sourceTree = "<group>"; };
+		46388F861EA3C19600B2C4DC /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
 		OBJ_15 /* Reviro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Reviro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_16 /* ReviroTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = ReviroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_16 /* ReviroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = ReviroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_8 /* Reviro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,34 +64,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		46388F4C1EA3AF0E00B2C4DC /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				46388F4D1EA3AF0E00B2C4DC /* OrderChecker.swift */,
-				46388F4E1EA3AF0E00B2C4DC /* Random.swift */,
-			);
-			path = Utility;
-			sourceTree = "<group>";
-		};
-		46388F4F1EA3AF0E00B2C4DC /* Sort */ = {
-			isa = PBXGroup;
-			children = (
-				46388F501EA3AF0E00B2C4DC /* HeapSort.swift */,
-				46388F511EA3AF0E00B2C4DC /* MergeSort.swift */,
-				46388F521EA3AF0E00B2C4DC /* ShellSort.swift */,
-			);
-			path = Sort;
-			sourceTree = "<group>";
-		};
-		46388F531EA3AF0E00B2C4DC /* Heap */ = {
-			isa = PBXGroup;
-			children = (
-				46388F541EA3AF0E00B2C4DC /* BinaryHeap.swift */,
-				46388F551EA3AF0E00B2C4DC /* HeapProtocol.swift */,
-			);
-			path = Heap;
-			sourceTree = "<group>";
-		};
 		46388F561EA3AF3A00B2C4DC /* Utility */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,13 +91,50 @@
 			path = Heap;
 			sourceTree = "<group>";
 		};
+		46388F7C1EA3C19600B2C4DC /* Reviro */ = {
+			isa = PBXGroup;
+			children = (
+				46388F7D1EA3C19600B2C4DC /* Heap */,
+				46388F801EA3C19600B2C4DC /* Sort */,
+				46388F841EA3C19600B2C4DC /* Utility */,
+			);
+			path = Reviro;
+			sourceTree = "<group>";
+		};
+		46388F7D1EA3C19600B2C4DC /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				46388F7E1EA3C19600B2C4DC /* BinaryHeap.swift */,
+				46388F7F1EA3C19600B2C4DC /* HeapProtocol.swift */,
+			);
+			path = Heap;
+			sourceTree = "<group>";
+		};
+		46388F801EA3C19600B2C4DC /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				46388F811EA3C19600B2C4DC /* HeapSort.swift */,
+				46388F821EA3C19600B2C4DC /* MergeSort.swift */,
+				46388F831EA3C19600B2C4DC /* ShellSort.swift */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		46388F841EA3C19600B2C4DC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				46388F851EA3C19600B2C4DC /* OrderChecker.swift */,
+				46388F861EA3C19600B2C4DC /* Random.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* ReviroTests */ = {
 			isa = PBXGroup;
 			children = (
 				46388F561EA3AF3A00B2C4DC /* Utility */,
 				46388F581EA3AF3A00B2C4DC /* Sort */,
 				46388F5D1EA3AF3A00B2C4DC /* Heap */,
-				OBJ_11 /* ReviroTests.swift */,
 			);
 			name = ReviroTests;
 			path = Tests/ReviroTests;
@@ -164,10 +162,7 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				46388F4C1EA3AF0E00B2C4DC /* Utility */,
-				46388F4F1EA3AF0E00B2C4DC /* Sort */,
-				46388F531EA3AF0E00B2C4DC /* Heap */,
-				OBJ_8 /* Reviro.swift */,
+				46388F7C1EA3C19600B2C4DC /* Reviro */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -247,14 +242,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				46388F6C1EA3B00400B2C4DC /* Random.swift in Sources */,
-				46388F6B1EA3B00400B2C4DC /* OrderChecker.swift in Sources */,
-				46388F6A1EA3B00000B2C4DC /* ShellSort.swift in Sources */,
-				46388F661EA3AFFB00B2C4DC /* BinaryHeap.swift in Sources */,
-				OBJ_22 /* Reviro.swift in Sources */,
-				46388F671EA3AFFB00B2C4DC /* HeapProtocol.swift in Sources */,
-				46388F681EA3B00000B2C4DC /* HeapSort.swift in Sources */,
-				46388F691EA3B00000B2C4DC /* MergeSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +255,6 @@
 				46388F651EA3AFF200B2C4DC /* OrderCheckerTests.swift in Sources */,
 				46388F601EA3AFEB00B2C4DC /* BinaryHeapTests.swift in Sources */,
 				46388F621EA3AFEF00B2C4DC /* MergeSortTests.swift in Sources */,
-				OBJ_29 /* ReviroTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,12 +11,12 @@ import Foundation
 class BinaryHeap<E>: HeapProtocol {
 
     init(sort: @escaping (E, E) -> Bool) {
-        self.sort = sort
+        self.isBefore = sort
         count = 0
     }
     
     init(array: [E], sort: @escaping (E, E) -> Bool) {
-        self.sort = sort
+        self.isBefore = sort
         buildHeap(array: array)
     }
     
@@ -69,31 +69,54 @@ class BinaryHeap<E>: HeapProtocol {
     }
     
     // MARK:
-    fileprivate let sort: (E, E) -> Bool
+    fileprivate let isBefore: (E, E) -> Bool
     fileprivate var elements = [E]()
     fileprivate var count = 0
+}
+
+
+extension BinaryHeap {
+    func index(of e: E) -> Int? {
+        return index(of: e, indx: 0)
+        
+    }
+        
+    fileprivate func index(of e: E, indx: Int) -> Int? {
+        if indx >= count { return nil }
+        
+        if isEqual(e, elements[indx]) { return indx }
+        if !isBefore(e, elements[indx]) { return nil }
+        
+        if let j = index(of: e, indx: HeapSort.leftIndex(of: indx)) { return j }
+        if let j = index(of: e, indx: HeapSort.rightIndex(of: indx)) { return j }
+        return nil
+    }
+    
+    fileprivate func isEqual(_ l: E, _ r: E) -> Bool {
+        return !isBefore(l, r) && !isBefore(r, l)
+    }
 }
 
 extension BinaryHeap {
     
     fileprivate func shiftUp(_ indx: Int) {
         elements.withUnsafeMutableBufferPointer { buf in
-            HeapSort.shiftUp(buffer: &buf, index: indx, cmp: sort)
+            HeapSort.shiftUp(buffer: &buf, index: indx, cmp: isBefore)
         }
     }
     
     fileprivate func shiftDown(_ indx: Int) {
         elements.withUnsafeMutableBufferPointer { buf in
-            HeapSort.shiftDown(buffer: &buf, index: indx, heapSize: count, cmp: sort)
+            HeapSort.shiftDown(buffer: &buf, index: indx, heapSize: count, cmp: isBefore)
         }
     }
     
-    fileprivate  func buildHeap(array: [E]) {
+    fileprivate func buildHeap(array: [E]) {
         guard array.count > 1 else { return }
         
         elements = array
         elements.withUnsafeMutableBufferPointer { (buf) in
-            HeapSort.buildHeap(buffer: &buf, cmp: sort)
+            HeapSort.buildHeap(buffer: &buf, cmp: isBefore)
         }
         
         count = elements.count

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		461997121E8F19330092DCE3 /* OrderChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461997111E8F19330092DCE3 /* OrderChecker.swift */; };
 		461997171E8F1B330092DCE3 /* OrderCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461997161E8F1B330092DCE3 /* OrderCheckerTests.swift */; };
+		46388F4A1EA341A700B2C4DC /* IndexedBinaryHeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F491EA341A700B2C4DC /* IndexedBinaryHeapTests.swift */; };
 		464BCB911E99676000E3EC51 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464BCB901E99676000E3EC51 /* MergeSort.swift */; };
 		464BCB931E997D8C00E3EC51 /* MergeSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464BCB921E997D8C00E3EC51 /* MergeSortTests.swift */; };
 		466C904E1E8C2E7A00ABD836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466C904D1E8C2E7A00ABD836 /* AppDelegate.swift */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		461997111E8F19330092DCE3 /* OrderChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderChecker.swift; sourceTree = "<group>"; };
 		461997161E8F1B330092DCE3 /* OrderCheckerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderCheckerTests.swift; sourceTree = "<group>"; };
+		46388F491EA341A700B2C4DC /* IndexedBinaryHeapTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexedBinaryHeapTests.swift; sourceTree = "<group>"; };
 		464BCB901E99676000E3EC51 /* MergeSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		464BCB921E997D8C00E3EC51 /* MergeSortTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeSortTests.swift; sourceTree = "<group>"; };
 		466C904A1E8C2E7A00ABD836 /* Reviro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reviro.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				466C91791E8D9AF200ABD836 /* BinaryHeapTests.swift */,
+				46388F491EA341A700B2C4DC /* IndexedBinaryHeapTests.swift */,
 			);
 			path = Heap;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				46FB0E311E96E54F0036C39B /* SortPerformance.swift in Sources */,
 				461997171E8F1B330092DCE3 /* OrderCheckerTests.swift in Sources */,
 				46BB1FBB1E9196B3000DD142 /* HeapSortTests.swift in Sources */,
+				46388F4A1EA341A700B2C4DC /* IndexedBinaryHeapTests.swift in Sources */,
 				466C917A1E8D9AF200ABD836 /* BinaryHeapTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

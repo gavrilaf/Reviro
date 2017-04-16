@@ -90,7 +90,7 @@ class BinaryHeapTests: XCTestCase {
         
         var checker = StreamOrderChecker<Int>(cmp: { return $0 >= $1 })
         while let t = pq.pop() {
-            print(t)
+            //print(t)
             checker.checkNext(t)
         }
         

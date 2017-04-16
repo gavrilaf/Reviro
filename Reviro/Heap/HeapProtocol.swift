@@ -11,8 +11,8 @@ import Foundation
 protocol HeapProtocol {
     associatedtype E
     
-    mutating func push(_ e: E)
-    mutating func pop() -> E?
+    func push(_ e: E)
+    func pop() -> E?
     
     var top: E? { get }
     

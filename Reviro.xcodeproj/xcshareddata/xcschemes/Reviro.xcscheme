@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_17"
+               BlueprintIdentifier = "OBJ_38"
                BuildableName = "Reviro.framework"
                BlueprintName = "Reviro"
                ReferencedContainer = "container:Reviro.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_24"
+               BlueprintIdentifier = "OBJ_53"
                BuildableName = "ReviroTests.xctest"
                BlueprintName = "ReviroTests"
                ReferencedContainer = "container:Reviro.xcodeproj">
@@ -55,7 +55,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_17"
+            BlueprintIdentifier = "OBJ_38"
             BuildableName = "Reviro.framework"
             BlueprintName = "Reviro"
             ReferencedContainer = "container:Reviro.xcodeproj">

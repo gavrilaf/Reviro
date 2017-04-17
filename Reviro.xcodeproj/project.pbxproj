@@ -7,197 +7,217 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46388F601EA3AFEB00B2C4DC /* BinaryHeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F5E1EA3AF3A00B2C4DC /* BinaryHeapTests.swift */; };
-		46388F611EA3AFEF00B2C4DC /* HeapSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F591EA3AF3A00B2C4DC /* HeapSortTests.swift */; };
-		46388F621EA3AFEF00B2C4DC /* MergeSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F5A1EA3AF3A00B2C4DC /* MergeSortTests.swift */; };
-		46388F631EA3AFEF00B2C4DC /* ShellSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F5B1EA3AF3A00B2C4DC /* ShellSortTests.swift */; };
-		46388F641EA3AFEF00B2C4DC /* SortPerformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F5C1EA3AF3A00B2C4DC /* SortPerformance.swift */; };
-		46388F651EA3AFF200B2C4DC /* OrderCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F571EA3AF3A00B2C4DC /* OrderCheckerTests.swift */; };
-		46388FB31EA53A8800B2C4DC /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388FB21EA53A8800B2C4DC /* LinkedList.swift */; };
-		46388FB51EA53C3100B2C4DC /* ListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388FB41EA53C3100B2C4DC /* ListProtocols.swift */; };
-		OBJ_31 /* Reviro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Reviro.framework */; };
+		OBJ_43 /* BinaryHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* BinaryHeap.swift */; };
+		OBJ_44 /* HeapProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* HeapProtocol.swift */; };
+		OBJ_45 /* DequeueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* DequeueProtocol.swift */; };
+		OBJ_46 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* LinkedList.swift */; };
+		OBJ_47 /* HeapSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* HeapSort.swift */; };
+		OBJ_48 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* MergeSort.swift */; };
+		OBJ_49 /* ShellSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* ShellSort.swift */; };
+		OBJ_50 /* OrderChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* OrderChecker.swift */; };
+		OBJ_51 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Random.swift */; };
+		OBJ_58 /* BinaryHeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* BinaryHeapTests.swift */; };
+		OBJ_59 /* ListDequeueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* ListDequeueTests.swift */; };
+		OBJ_60 /* HeapSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* HeapSortTests.swift */; };
+		OBJ_61 /* MergeSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* MergeSortTests.swift */; };
+		OBJ_62 /* ShellSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* ShellSortTests.swift */; };
+		OBJ_63 /* SortPerformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* SortPerformance.swift */; };
+		OBJ_64 /* OrderCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* OrderCheckerTests.swift */; };
+		OBJ_66 /* Reviro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* Reviro.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		46388F4B1EA3A6A300B2C4DC /* PBXContainerItemProxy */ = {
+		46A679011EA547F300D5C334 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_17;
+			remoteGlobalIDString = OBJ_38;
 			remoteInfo = Reviro;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		46388F571EA3AF3A00B2C4DC /* OrderCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCheckerTests.swift; sourceTree = "<group>"; };
-		46388F591EA3AF3A00B2C4DC /* HeapSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSortTests.swift; sourceTree = "<group>"; };
-		46388F5A1EA3AF3A00B2C4DC /* MergeSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortTests.swift; sourceTree = "<group>"; };
-		46388F5B1EA3AF3A00B2C4DC /* ShellSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellSortTests.swift; sourceTree = "<group>"; };
-		46388F5C1EA3AF3A00B2C4DC /* SortPerformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortPerformance.swift; sourceTree = "<group>"; };
-		46388F5E1EA3AF3A00B2C4DC /* BinaryHeapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryHeapTests.swift; sourceTree = "<group>"; };
-		46388F7E1EA3C19600B2C4DC /* BinaryHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryHeap.swift; sourceTree = "<group>"; };
-		46388F7F1EA3C19600B2C4DC /* HeapProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapProtocol.swift; sourceTree = "<group>"; };
-		46388F811EA3C19600B2C4DC /* HeapSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSort.swift; sourceTree = "<group>"; };
-		46388F821EA3C19600B2C4DC /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
-		46388F831EA3C19600B2C4DC /* ShellSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellSort.swift; sourceTree = "<group>"; };
-		46388F851EA3C19600B2C4DC /* OrderChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderChecker.swift; sourceTree = "<group>"; };
-		46388F861EA3C19600B2C4DC /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
-		46388FB21EA53A8800B2C4DC /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
-		46388FB41EA53C3100B2C4DC /* ListProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListProtocols.swift; sourceTree = "<group>"; };
-		OBJ_15 /* Reviro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Reviro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_16 /* ReviroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = ReviroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* BinaryHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryHeap.swift; sourceTree = "<group>"; };
+		OBJ_11 /* HeapProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapProtocol.swift; sourceTree = "<group>"; };
+		OBJ_13 /* DequeueProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequeueProtocol.swift; sourceTree = "<group>"; };
+		OBJ_14 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		OBJ_16 /* HeapSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSort.swift; sourceTree = "<group>"; };
+		OBJ_17 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		OBJ_18 /* ShellSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellSort.swift; sourceTree = "<group>"; };
+		OBJ_20 /* OrderChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderChecker.swift; sourceTree = "<group>"; };
+		OBJ_21 /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		OBJ_25 /* BinaryHeapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryHeapTests.swift; sourceTree = "<group>"; };
+		OBJ_27 /* ListDequeueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDequeueTests.swift; sourceTree = "<group>"; };
+		OBJ_29 /* HeapSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSortTests.swift; sourceTree = "<group>"; };
+		OBJ_30 /* MergeSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortTests.swift; sourceTree = "<group>"; };
+		OBJ_31 /* ShellSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellSortTests.swift; sourceTree = "<group>"; };
+		OBJ_32 /* SortPerformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortPerformance.swift; sourceTree = "<group>"; };
+		OBJ_34 /* OrderCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCheckerTests.swift; sourceTree = "<group>"; };
+		OBJ_36 /* Reviro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Reviro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_37 /* ReviroTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = ReviroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_23 /* Frameworks */ = {
+		OBJ_52 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_30 /* Frameworks */ = {
+		OBJ_65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_31 /* Reviro.framework in Frameworks */,
+				OBJ_66 /* Reviro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		46388F561EA3AF3A00B2C4DC /* Utility */ = {
+		OBJ_12 /* List */ = {
 			isa = PBXGroup;
 			children = (
-				46388F571EA3AF3A00B2C4DC /* OrderCheckerTests.swift */,
-			);
-			path = Utility;
-			sourceTree = "<group>";
-		};
-		46388F581EA3AF3A00B2C4DC /* Sort */ = {
-			isa = PBXGroup;
-			children = (
-				46388F591EA3AF3A00B2C4DC /* HeapSortTests.swift */,
-				46388F5A1EA3AF3A00B2C4DC /* MergeSortTests.swift */,
-				46388F5B1EA3AF3A00B2C4DC /* ShellSortTests.swift */,
-				46388F5C1EA3AF3A00B2C4DC /* SortPerformance.swift */,
-			);
-			path = Sort;
-			sourceTree = "<group>";
-		};
-		46388F5D1EA3AF3A00B2C4DC /* Heap */ = {
-			isa = PBXGroup;
-			children = (
-				46388F5E1EA3AF3A00B2C4DC /* BinaryHeapTests.swift */,
-			);
-			path = Heap;
-			sourceTree = "<group>";
-		};
-		46388F7C1EA3C19600B2C4DC /* Reviro */ = {
-			isa = PBXGroup;
-			children = (
-				46388FB11EA53A7800B2C4DC /* List */,
-				46388F7D1EA3C19600B2C4DC /* Heap */,
-				46388F801EA3C19600B2C4DC /* Sort */,
-				46388F841EA3C19600B2C4DC /* Utility */,
-			);
-			path = Reviro;
-			sourceTree = "<group>";
-		};
-		46388F7D1EA3C19600B2C4DC /* Heap */ = {
-			isa = PBXGroup;
-			children = (
-				46388F7E1EA3C19600B2C4DC /* BinaryHeap.swift */,
-				46388F7F1EA3C19600B2C4DC /* HeapProtocol.swift */,
-			);
-			path = Heap;
-			sourceTree = "<group>";
-		};
-		46388F801EA3C19600B2C4DC /* Sort */ = {
-			isa = PBXGroup;
-			children = (
-				46388F811EA3C19600B2C4DC /* HeapSort.swift */,
-				46388F821EA3C19600B2C4DC /* MergeSort.swift */,
-				46388F831EA3C19600B2C4DC /* ShellSort.swift */,
-			);
-			path = Sort;
-			sourceTree = "<group>";
-		};
-		46388F841EA3C19600B2C4DC /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				46388F851EA3C19600B2C4DC /* OrderChecker.swift */,
-				46388F861EA3C19600B2C4DC /* Random.swift */,
-			);
-			path = Utility;
-			sourceTree = "<group>";
-		};
-		46388FB11EA53A7800B2C4DC /* List */ = {
-			isa = PBXGroup;
-			children = (
-				46388FB21EA53A8800B2C4DC /* LinkedList.swift */,
-				46388FB41EA53C3100B2C4DC /* ListProtocols.swift */,
+				OBJ_13 /* DequeueProtocol.swift */,
+				OBJ_14 /* LinkedList.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
 		};
-		OBJ_10 /* ReviroTests */ = {
+		OBJ_15 /* Sort */ = {
 			isa = PBXGroup;
 			children = (
-				46388F561EA3AF3A00B2C4DC /* Utility */,
-				46388F581EA3AF3A00B2C4DC /* Sort */,
-				46388F5D1EA3AF3A00B2C4DC /* Heap */,
+				OBJ_16 /* HeapSort.swift */,
+				OBJ_17 /* MergeSort.swift */,
+				OBJ_18 /* ShellSort.swift */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		OBJ_19 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_20 /* OrderChecker.swift */,
+				OBJ_21 /* Random.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		OBJ_22 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_23 /* ReviroTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_23 /* ReviroTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_24 /* Heap */,
+				OBJ_26 /* List */,
+				OBJ_28 /* Sort */,
+				OBJ_33 /* Utility */,
 			);
 			name = ReviroTests;
 			path = Tests/ReviroTests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_14 /* Products */ = {
+		OBJ_24 /* Heap */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_15 /* Reviro.framework */,
-				OBJ_16 /* ReviroTests.xctest */,
+				OBJ_25 /* BinaryHeapTests.swift */,
+			);
+			path = Heap;
+			sourceTree = "<group>";
+		};
+		OBJ_26 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_27 /* ListDequeueTests.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		OBJ_28 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_29 /* HeapSortTests.swift */,
+				OBJ_30 /* MergeSortTests.swift */,
+				OBJ_31 /* ShellSortTests.swift */,
+				OBJ_32 /* SortPerformance.swift */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		OBJ_33 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_34 /* OrderCheckerTests.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		OBJ_35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_36 /* Reviro.framework */,
+				OBJ_37 /* ReviroTests.xctest */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_9 /* Tests */,
-				OBJ_14 /* Products */,
+				OBJ_22 /* Tests */,
+				OBJ_35 /* Products */,
 			);
+			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				46388F7C1EA3C19600B2C4DC /* Reviro */,
+				OBJ_8 /* Reviro */,
 			);
-			path = Sources;
+			name = Sources;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_9 /* Tests */ = {
+		OBJ_8 /* Reviro */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_10 /* ReviroTests */,
+				OBJ_9 /* Heap */,
+				OBJ_12 /* List */,
+				OBJ_15 /* Sort */,
+				OBJ_19 /* Utility */,
 			);
-			name = Tests;
+			name = Reviro;
+			path = Sources/Reviro;
 			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_9 /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* BinaryHeap.swift */,
+				OBJ_11 /* HeapProtocol.swift */,
+			);
+			path = Heap;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		OBJ_17 /* Reviro */ = {
+		OBJ_38 /* Reviro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_18 /* Build configuration list for PBXNativeTarget "Reviro" */;
+			buildConfigurationList = OBJ_39 /* Build configuration list for PBXNativeTarget "Reviro" */;
 			buildPhases = (
-				OBJ_21 /* Sources */,
-				OBJ_23 /* Frameworks */,
+				OBJ_42 /* Sources */,
+				OBJ_52 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,24 +225,24 @@
 			);
 			name = Reviro;
 			productName = Reviro;
-			productReference = OBJ_15 /* Reviro.framework */;
+			productReference = OBJ_36 /* Reviro.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_24 /* ReviroTests */ = {
+		OBJ_53 /* ReviroTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_25 /* Build configuration list for PBXNativeTarget "ReviroTests" */;
+			buildConfigurationList = OBJ_54 /* Build configuration list for PBXNativeTarget "ReviroTests" */;
 			buildPhases = (
-				OBJ_28 /* Sources */,
-				OBJ_30 /* Frameworks */,
+				OBJ_57 /* Sources */,
+				OBJ_65 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_32 /* PBXTargetDependency */,
+				OBJ_67 /* PBXTargetDependency */,
 			);
 			name = ReviroTests;
 			productName = ReviroTests;
-			productReference = OBJ_16 /* ReviroTests.xctest */;
+			productReference = OBJ_37 /* ReviroTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -232,11 +252,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 9999;
-				TargetAttributes = {
-					OBJ_17 = {
-						LastSwiftMigration = 0830;
-					};
-				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Reviro" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -245,136 +260,59 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5;
-			productRefGroup = OBJ_14 /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_35 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				OBJ_17 /* Reviro */,
-				OBJ_24 /* ReviroTests */,
+				OBJ_38 /* Reviro */,
+				OBJ_53 /* ReviroTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_21 /* Sources */ = {
+		OBJ_42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				46388FB31EA53A8800B2C4DC /* LinkedList.swift in Sources */,
-				46388FB51EA53C3100B2C4DC /* ListProtocols.swift in Sources */,
+				OBJ_43 /* BinaryHeap.swift in Sources */,
+				OBJ_44 /* HeapProtocol.swift in Sources */,
+				OBJ_45 /* DequeueProtocol.swift in Sources */,
+				OBJ_46 /* LinkedList.swift in Sources */,
+				OBJ_47 /* HeapSort.swift in Sources */,
+				OBJ_48 /* MergeSort.swift in Sources */,
+				OBJ_49 /* ShellSort.swift in Sources */,
+				OBJ_50 /* OrderChecker.swift in Sources */,
+				OBJ_51 /* Random.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_28 /* Sources */ = {
+		OBJ_57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				46388F631EA3AFEF00B2C4DC /* ShellSortTests.swift in Sources */,
-				46388F611EA3AFEF00B2C4DC /* HeapSortTests.swift in Sources */,
-				46388F641EA3AFEF00B2C4DC /* SortPerformance.swift in Sources */,
-				46388F651EA3AFF200B2C4DC /* OrderCheckerTests.swift in Sources */,
-				46388F601EA3AFEB00B2C4DC /* BinaryHeapTests.swift in Sources */,
-				46388F621EA3AFEF00B2C4DC /* MergeSortTests.swift in Sources */,
+				OBJ_58 /* BinaryHeapTests.swift in Sources */,
+				OBJ_59 /* ListDequeueTests.swift in Sources */,
+				OBJ_60 /* HeapSortTests.swift in Sources */,
+				OBJ_61 /* MergeSortTests.swift in Sources */,
+				OBJ_62 /* ShellSortTests.swift in Sources */,
+				OBJ_63 /* SortPerformance.swift in Sources */,
+				OBJ_64 /* OrderCheckerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_32 /* PBXTargetDependency */ = {
+		OBJ_67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_17 /* Reviro */;
-			targetProxy = 46388F4B1EA3A6A300B2C4DC /* PBXContainerItemProxy */;
+			target = OBJ_38 /* Reviro */;
+			targetProxy = 46A679011EA547F300D5C334 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_19 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Reviro.xcodeproj/Reviro_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Reviro;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGET_NAME = Reviro;
-			};
-			name = Debug;
-		};
-		OBJ_20 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Reviro.xcodeproj/Reviro_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Reviro;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGET_NAME = Reviro;
-			};
-			name = Release;
-		};
-		OBJ_26 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Reviro.xcodeproj/ReviroTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				TARGET_NAME = ReviroTests;
-			};
-			name = Debug;
-		};
-		OBJ_27 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Reviro.xcodeproj/ReviroTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				TARGET_NAME = ReviroTests;
-			};
-			name = Release;
-		};
 		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -419,18 +357,85 @@
 			};
 			name = Release;
 		};
+		OBJ_40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Reviro.xcodeproj/Reviro_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Reviro;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Reviro;
+			};
+			name = Debug;
+		};
+		OBJ_41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Reviro.xcodeproj/Reviro_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Reviro;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Reviro;
+			};
+			name = Release;
+		};
+		OBJ_55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Reviro.xcodeproj/ReviroTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				TARGET_NAME = ReviroTests;
+			};
+			name = Debug;
+		};
+		OBJ_56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Reviro.xcodeproj/ReviroTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				TARGET_NAME = ReviroTests;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_18 /* Build configuration list for PBXNativeTarget "Reviro" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_19 /* Debug */,
-				OBJ_20 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
 		OBJ_2 /* Build configuration list for PBXProject "Reviro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -440,11 +445,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_25 /* Build configuration list for PBXNativeTarget "ReviroTests" */ = {
+		OBJ_39 /* Build configuration list for PBXNativeTarget "Reviro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_26 /* Debug */,
-				OBJ_27 /* Release */,
+				OBJ_40 /* Debug */,
+				OBJ_41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_54 /* Build configuration list for PBXNativeTarget "ReviroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_55 /* Debug */,
+				OBJ_56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

@@ -10,21 +10,21 @@ import Foundation
 
 ///////////////////////////////////////////////////////////////////////////////////////
 
-struct StreamOrderChecker<T> {
+public struct StreamOrderChecker<T> {
     
     let cmp: (T, T) -> Bool
     
-    init(cmp: @escaping (T, T) -> Bool) {
+    public init(cmp: @escaping (T, T) -> Bool) {
         self.cmp = cmp
     }
     
-    mutating func reset() {
+    public mutating func reset() {
         curr = nil
         res = true
     }
     
     @discardableResult
-    mutating func checkNext(_ t: T) -> Bool {
+    public mutating func checkNext(_ t: T) -> Bool {
         if let curr = curr {
             let r = cmp(curr, t)
             self.curr = t
@@ -37,7 +37,7 @@ struct StreamOrderChecker<T> {
         return true
     }
     
-    var isOrdered: Bool {
+    public var isOrdered: Bool {
         return res
     }
     
@@ -48,7 +48,9 @@ struct StreamOrderChecker<T> {
 
 ///////////////////////////////////////////////////////////////////////////////////////
 
-func isSequenceOrdered<E: Sequence, T>(seq: E, cmp: @escaping (T, T) -> Bool) -> Bool where E.Iterator.Element == T {
+public func isSequenceOrdered<E: Sequence, T>(seq: E, cmp: @escaping (T, T) -> Bool) -> Bool
+    where E.Iterator.Element == T {
+    
     var checker = StreamOrderChecker(cmp: cmp)
     seq.forEach { (t) in
         _ = checker.checkNext(t)

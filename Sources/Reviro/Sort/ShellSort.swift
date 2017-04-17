@@ -8,20 +8,20 @@
 
 import Foundation
 
-struct ShellSort {
+public struct ShellSort {
     
-    static func sort<E>(array: inout [E], cmp: (E, E) -> Bool) {
+    public static func sort<E>(array: inout [E], cmp: (E, E) -> Bool) {
         sort(array: &array, gaps: Gaps.Tokuda, cmp: cmp)
     }
     
     // MARK: Helpers
     
-    struct Gaps {
+    public struct Gaps {
         static let Ciura = [701, 301, 132, 57, 23, 10, 4, 1]
         static let Tokuda = [30301, 13466, 5985, 2660, 1182, 525, 103, 46, 20, 9, 4, 1]
     }
     
-    static func sort<E>(array: inout [E],  gaps: [Int], cmp: (E, E) -> Bool) {
+    public static func sort<E>(array: inout [E],  gaps: [Int], cmp: (E, E) -> Bool) {
         let count = array.count
         
         array.withUnsafeMutableBufferPointer { (buf) in

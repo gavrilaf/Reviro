@@ -13,6 +13,8 @@
 		46388F631EA3AFEF00B2C4DC /* ShellSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F5B1EA3AF3A00B2C4DC /* ShellSortTests.swift */; };
 		46388F641EA3AFEF00B2C4DC /* SortPerformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F5C1EA3AF3A00B2C4DC /* SortPerformance.swift */; };
 		46388F651EA3AFF200B2C4DC /* OrderCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388F571EA3AF3A00B2C4DC /* OrderCheckerTests.swift */; };
+		46388FB31EA53A8800B2C4DC /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388FB21EA53A8800B2C4DC /* LinkedList.swift */; };
+		46388FB51EA53C3100B2C4DC /* ListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388FB41EA53C3100B2C4DC /* ListProtocols.swift */; };
 		OBJ_31 /* Reviro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Reviro.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +42,8 @@
 		46388F831EA3C19600B2C4DC /* ShellSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellSort.swift; sourceTree = "<group>"; };
 		46388F851EA3C19600B2C4DC /* OrderChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderChecker.swift; sourceTree = "<group>"; };
 		46388F861EA3C19600B2C4DC /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		46388FB21EA53A8800B2C4DC /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		46388FB41EA53C3100B2C4DC /* ListProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListProtocols.swift; sourceTree = "<group>"; };
 		OBJ_15 /* Reviro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Reviro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_16 /* ReviroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = ReviroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -94,6 +98,7 @@
 		46388F7C1EA3C19600B2C4DC /* Reviro */ = {
 			isa = PBXGroup;
 			children = (
+				46388FB11EA53A7800B2C4DC /* List */,
 				46388F7D1EA3C19600B2C4DC /* Heap */,
 				46388F801EA3C19600B2C4DC /* Sort */,
 				46388F841EA3C19600B2C4DC /* Utility */,
@@ -127,6 +132,15 @@
 				46388F861EA3C19600B2C4DC /* Random.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		46388FB11EA53A7800B2C4DC /* List */ = {
+			isa = PBXGroup;
+			children = (
+				46388FB21EA53A8800B2C4DC /* LinkedList.swift */,
+				46388FB41EA53C3100B2C4DC /* ListProtocols.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 		OBJ_10 /* ReviroTests */ = {
@@ -218,6 +232,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					OBJ_17 = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Reviro" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -242,6 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				46388FB31EA53A8800B2C4DC /* LinkedList.swift in Sources */,
+				46388FB51EA53C3100B2C4DC /* ListProtocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +293,8 @@
 		OBJ_19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -286,6 +309,8 @@
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGET_NAME = Reviro;
 			};
 			name = Debug;
@@ -293,6 +318,8 @@
 		OBJ_20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +334,7 @@
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGET_NAME = Reviro;
 			};
 			name = Release;
@@ -314,6 +342,7 @@
 		OBJ_26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -331,6 +360,7 @@
 		OBJ_27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol HeapProtocol {
+public protocol HeapProtocol {
     associatedtype E
     
     func push(_ e: E)
@@ -18,4 +18,8 @@ protocol HeapProtocol {
     
     var isEmpty: Bool { get }
     var size: Int { get }
+}
+
+public protocol IndexedHeapProtocol: HeapProtocol {
+    func index(of element: E) -> Int?
 }

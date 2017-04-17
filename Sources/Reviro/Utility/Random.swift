@@ -8,7 +8,7 @@
 
 import Foundation
 
-func randomArray(size: Int) -> [Int] {
+public func randomArray(size: Int) -> [Int] {
     var ar = [Int]()
     for _ in 0..<size {
         ar.append(Int(arc4random_uniform(1000)))

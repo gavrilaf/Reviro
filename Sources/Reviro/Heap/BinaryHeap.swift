@@ -8,21 +8,21 @@
 
 import Foundation
 
-class BinaryHeap<E>: HeapProtocol {
+public final class BinaryHeap<E>: IndexedHeapProtocol {
 
-    init(sort: @escaping (E, E) -> Bool) {
+    public init(sort: @escaping (E, E) -> Bool) {
         self.isBefore = sort
         count = 0
     }
     
-    init(array: [E], sort: @escaping (E, E) -> Bool) {
+    public init(array: [E], sort: @escaping (E, E) -> Bool) {
         self.isBefore = sort
         buildHeap(array: array)
     }
     
     // MARK: Heap
     
-     func push(_ e: E) {
+     public func push(_ e: E) {
         if count < elements.count {
             elements[count] = e
         } else {
@@ -31,11 +31,9 @@ class BinaryHeap<E>: HeapProtocol {
         
         count += 1
         shiftUp(count-1)
-        
-        //print("after push: \(e), \(elements)")
     }
     
-     func pop() -> E? {
+     public func pop() -> E? {
         guard let p = top else { return nil }
         
         if count > 1 {
@@ -45,25 +43,25 @@ class BinaryHeap<E>: HeapProtocol {
         } else {
             count -= 1
         }
-        //print("after pop: \(p), \(elements)")
+        
         return p
     }
     
-    var top: E? {
+    public var top: E? {
         return count == 0 ? nil : elements[0]
     }
     
-    var isEmpty: Bool {
+    public var isEmpty: Bool {
         return size == 0
     }
     
-    var size: Int {
+    public var size: Int {
         return count
     }
     
     // MARK: Utility
     
-    func clear() {
+    public func clear() {
         elements.removeAll()
         count = 0
     }
@@ -76,7 +74,7 @@ class BinaryHeap<E>: HeapProtocol {
 
 
 extension BinaryHeap {
-    func index(of e: E) -> Int? {
+    public func index(of e: E) -> Int? {
         return index(of: e, indx: 0)
         
     }

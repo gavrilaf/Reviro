@@ -8,9 +8,9 @@
 
 import Foundation
 
-struct MergeSort {
+public struct MergeSort {
     
-    static func sort<E>(array: inout [E], cmp: @escaping (E, E) -> Bool) {
+    public static func sort<E>(array: inout [E], cmp: @escaping (E, E) -> Bool) {
         sort(array: &array, left: 0, right: array.count - 1, cmp: cmp)
     }
     

@@ -8,9 +8,9 @@
 
 import Foundation
 
-struct HeapSort {
+public struct HeapSort {
     
-    static func sort<E>(array: inout [E], cmp: @escaping (E, E) -> Bool) {
+    public static func sort<E>(array: inout [E], cmp: @escaping (E, E) -> Bool) {
         array.withUnsafeMutableBufferPointer { (buffer) in
             buildHeap(buffer: &buffer, cmp: cmp)
             for i in stride(from: buffer.count - 1, through: 1, by: -1) {

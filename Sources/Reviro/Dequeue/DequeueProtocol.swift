@@ -16,10 +16,13 @@ public protocol DequeueProtocol {
     var first: Element? { get }
     var last: Element? { get }
     
-    func pushFirst(e: Element)
-    func pushLast(e: Element)
+    func pushFirst(_ e: Element)
+    func pushLast(_ e: Element)
     
+    @discardableResult
     func popFirst() -> Element?
+    
+    @discardableResult
     func popLast() -> Element?
     
     func clear()

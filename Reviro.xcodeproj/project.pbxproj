@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		465654051EA7F3DC00B48F00 /* DequeueListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465654001EA7F2EB00B48F00 /* DequeueListTests.swift */; };
+		465654061EA7F3E100B48F00 /* DequeueArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465654021EA7F2F800B48F00 /* DequeueArray.swift */; };
+		465654071EA7F3E100B48F00 /* DequeueList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465654031EA7F2F800B48F00 /* DequeueList.swift */; };
+		465654081EA7F3E100B48F00 /* DequeueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465654041EA7F2F800B48F00 /* DequeueProtocol.swift */; };
+		4656540A1EA7F41400B48F00 /* DequeueArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465654091EA7F41400B48F00 /* DequeueArrayTests.swift */; };
+		4656540C1EA7F47600B48F00 /* DequeuePerformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4656540B1EA7F47600B48F00 /* DequeuePerformance.swift */; };
 		OBJ_43 /* BinaryHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* BinaryHeap.swift */; };
 		OBJ_44 /* HeapProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* HeapProtocol.swift */; };
-		OBJ_45 /* DequeueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* DequeueProtocol.swift */; };
-		OBJ_46 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* LinkedList.swift */; };
 		OBJ_47 /* HeapSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* HeapSort.swift */; };
 		OBJ_48 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* MergeSort.swift */; };
 		OBJ_49 /* ShellSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* ShellSort.swift */; };
 		OBJ_50 /* OrderChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* OrderChecker.swift */; };
 		OBJ_51 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Random.swift */; };
 		OBJ_58 /* BinaryHeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* BinaryHeapTests.swift */; };
-		OBJ_59 /* ListDequeueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* ListDequeueTests.swift */; };
 		OBJ_60 /* HeapSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* HeapSortTests.swift */; };
 		OBJ_61 /* MergeSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* MergeSortTests.swift */; };
 		OBJ_62 /* ShellSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* ShellSortTests.swift */; };
@@ -37,17 +40,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		465654001EA7F2EB00B48F00 /* DequeueListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequeueListTests.swift; sourceTree = "<group>"; };
+		465654021EA7F2F800B48F00 /* DequeueArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequeueArray.swift; sourceTree = "<group>"; };
+		465654031EA7F2F800B48F00 /* DequeueList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequeueList.swift; sourceTree = "<group>"; };
+		465654041EA7F2F800B48F00 /* DequeueProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequeueProtocol.swift; sourceTree = "<group>"; };
+		465654091EA7F41400B48F00 /* DequeueArrayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DequeueArrayTests.swift; sourceTree = "<group>"; };
+		4656540B1EA7F47600B48F00 /* DequeuePerformance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DequeuePerformance.swift; sourceTree = "<group>"; };
 		OBJ_10 /* BinaryHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryHeap.swift; sourceTree = "<group>"; };
 		OBJ_11 /* HeapProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapProtocol.swift; sourceTree = "<group>"; };
-		OBJ_13 /* DequeueProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequeueProtocol.swift; sourceTree = "<group>"; };
-		OBJ_14 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		OBJ_16 /* HeapSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSort.swift; sourceTree = "<group>"; };
 		OBJ_17 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		OBJ_18 /* ShellSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellSort.swift; sourceTree = "<group>"; };
 		OBJ_20 /* OrderChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderChecker.swift; sourceTree = "<group>"; };
 		OBJ_21 /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
 		OBJ_25 /* BinaryHeapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryHeapTests.swift; sourceTree = "<group>"; };
-		OBJ_27 /* ListDequeueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDequeueTests.swift; sourceTree = "<group>"; };
 		OBJ_29 /* HeapSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSortTests.swift; sourceTree = "<group>"; };
 		OBJ_30 /* MergeSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortTests.swift; sourceTree = "<group>"; };
 		OBJ_31 /* ShellSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellSortTests.swift; sourceTree = "<group>"; };
@@ -77,13 +83,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		OBJ_12 /* List */ = {
+		465653FF1EA7F2EB00B48F00 /* Dequeue */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_13 /* DequeueProtocol.swift */,
-				OBJ_14 /* LinkedList.swift */,
+				465654001EA7F2EB00B48F00 /* DequeueListTests.swift */,
+				465654091EA7F41400B48F00 /* DequeueArrayTests.swift */,
+				4656540B1EA7F47600B48F00 /* DequeuePerformance.swift */,
 			);
-			path = List;
+			path = Dequeue;
+			sourceTree = "<group>";
+		};
+		465654011EA7F2F800B48F00 /* Dequeue */ = {
+			isa = PBXGroup;
+			children = (
+				465654021EA7F2F800B48F00 /* DequeueArray.swift */,
+				465654031EA7F2F800B48F00 /* DequeueList.swift */,
+				465654041EA7F2F800B48F00 /* DequeueProtocol.swift */,
+			);
+			path = Dequeue;
 			sourceTree = "<group>";
 		};
 		OBJ_15 /* Sort */ = {
@@ -116,8 +133,8 @@
 		OBJ_23 /* ReviroTests */ = {
 			isa = PBXGroup;
 			children = (
+				465653FF1EA7F2EB00B48F00 /* Dequeue */,
 				OBJ_24 /* Heap */,
-				OBJ_26 /* List */,
 				OBJ_28 /* Sort */,
 				OBJ_33 /* Utility */,
 			);
@@ -131,14 +148,6 @@
 				OBJ_25 /* BinaryHeapTests.swift */,
 			);
 			path = Heap;
-			sourceTree = "<group>";
-		};
-		OBJ_26 /* List */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_27 /* ListDequeueTests.swift */,
-			);
-			path = List;
 			sourceTree = "<group>";
 		};
 		OBJ_28 /* Sort */ = {
@@ -169,7 +178,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -177,7 +186,6 @@
 				OBJ_22 /* Tests */,
 				OBJ_35 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -191,8 +199,8 @@
 		OBJ_8 /* Reviro */ = {
 			isa = PBXGroup;
 			children = (
+				465654011EA7F2F800B48F00 /* Dequeue */,
 				OBJ_9 /* Heap */,
-				OBJ_12 /* List */,
 				OBJ_15 /* Sort */,
 				OBJ_19 /* Utility */,
 			);
@@ -260,7 +268,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_35 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -278,10 +286,11 @@
 			files = (
 				OBJ_43 /* BinaryHeap.swift in Sources */,
 				OBJ_44 /* HeapProtocol.swift in Sources */,
-				OBJ_45 /* DequeueProtocol.swift in Sources */,
-				OBJ_46 /* LinkedList.swift in Sources */,
+				465654071EA7F3E100B48F00 /* DequeueList.swift in Sources */,
+				465654061EA7F3E100B48F00 /* DequeueArray.swift in Sources */,
 				OBJ_47 /* HeapSort.swift in Sources */,
 				OBJ_48 /* MergeSort.swift in Sources */,
+				465654081EA7F3E100B48F00 /* DequeueProtocol.swift in Sources */,
 				OBJ_49 /* ShellSort.swift in Sources */,
 				OBJ_50 /* OrderChecker.swift in Sources */,
 				OBJ_51 /* Random.swift in Sources */,
@@ -293,10 +302,12 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_58 /* BinaryHeapTests.swift in Sources */,
-				OBJ_59 /* ListDequeueTests.swift in Sources */,
 				OBJ_60 /* HeapSortTests.swift in Sources */,
+				4656540A1EA7F41400B48F00 /* DequeueArrayTests.swift in Sources */,
+				465654051EA7F3DC00B48F00 /* DequeueListTests.swift in Sources */,
 				OBJ_61 /* MergeSortTests.swift in Sources */,
 				OBJ_62 /* ShellSortTests.swift in Sources */,
+				4656540C1EA7F47600B48F00 /* DequeuePerformance.swift in Sources */,
 				OBJ_63 /* SortPerformance.swift in Sources */,
 				OBJ_64 /* OrderCheckerTests.swift in Sources */,
 			);
